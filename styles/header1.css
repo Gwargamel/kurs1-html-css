@@ -1,0 +1,49 @@
+ /* Header/Blog Title */
+ .header1 {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   padding: 5px;
+   text-align: left;
+   background: white;
+   border-width: 2px;
+   border-color: black;
+   border-style: solid;
+ }
+
+ .header1 h3 {
+   font-size: 20px;
+   margin-top: 15px;
+   margin-left: 110px;
+   
+ }
+
+ /* Social media icons */
+ .icons {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 15px;
+   margin-right: 15px;
+   cursor: pointer;
+ }
+
+ .facebook {
+   margin-right: 8px;
+   }
+
+ .instagram {
+   margin-right: 8px;
+ }
+
+ .twitter {
+   margin-right: 8px;
+ }
+
+ .youtube {
+   margin-right: 8px;
+ }

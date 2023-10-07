@@ -1,0 +1,42 @@
+* {
+font-family: Laila, Arial;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+body {
+padding-top: 50px;
+
+}
+
+/* Container for flexboxes */
+.row {
+display: grid;
+grid-template-areas: 'middle middle middle right';
+grid-column-gap: 10px;
+}
+    
+.middle,.right {
+padding: 10px;
+}
+    
+/* Style the middle column */
+.middle {
+grid-area: middle;
+}
+    
+/* Style the right column */
+.right {
+grid-area: right;
+}
+    
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 1042px) {
+.grid-container {
+grid-template-areas:
+'middle middle middle middle middle middle'
+'right right right right right right';
+}
+}
+

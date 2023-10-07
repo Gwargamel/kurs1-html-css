@@ -1,0 +1,27 @@
+.footer2 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-right: 45px;
+height: 100px;
+font-size: 10px;
+line-height: 20px;
+background: rgb(177, 176, 176);
+margin-top: 10px;
+margin-bottom: 44px;
+border-style: solid;
+border-color: rgb(104, 102, 102);
+border-width: 2px;
+}
+
+.link-column {
+list-style-type: none;
+box-sizing: border-box;
+margin: 0;
+
+}
+
+.link-column a {
+color: rgb(13, 23, 165);
+font-weight: 600;
+}

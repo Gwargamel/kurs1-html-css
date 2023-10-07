@@ -1,0 +1,15 @@
+ .header2 {
+   background-color: rgb(147, 144, 144);
+   height: 75px;
+   }
+
+ .header2 h4 {
+   color: white;
+   text-align: center;
+   padding-top: 24px;
+ }
+
+ .header2 p {
+   text-align: center;
+   font-size: 13px;
+ }
